@@ -1,0 +1,68 @@
+.menu {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.menu .menuTitle {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.menu .menuList {
+    cursor: pointer;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+    gap: 20px;
+    padding: 40px 0;
+
+}
+
+.menu .menuList .menuItem {
+    text-align: center;
+    border-radius: 15px;
+    width: 200px;
+    height: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s ease;
+    color: rgb(26, 25, 25);
+    font-weight: 700;
+    border: 1px solid rgb(46, 45, 45);
+    background: rgba(114, 109, 109, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+
+.menu .menuTitle h2 {
+    margin: 15px;
+    color: rgb(46, 45, 45);
+}
+
+
+.menuItem-active {
+    background-color: #35c9ee;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 200px;
+    height: auto;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s ease;
+    color: rgb(34, 32, 32);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+}

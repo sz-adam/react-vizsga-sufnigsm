@@ -1,0 +1,59 @@
+.newProduct {
+    text-align: center;
+    display: grid;
+}
+
+.newProductList {
+
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+th {
+    padding: 3rem;
+    text-align: center;
+}
+
+
+
+tr {
+    padding: 20px
+}
+
+td {
+    font-weight: 500;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: rgb(22, 22, 22);
+}
+
+.select {
+    margin-top: 1rem;
+    padding-right: 1.2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    background: none;
+}
+
+.selectOption {
+    background: none;
+
+}
+
+.select:hover {
+    background-color: rgb(32, 78, 125);
+    color: white;
+}

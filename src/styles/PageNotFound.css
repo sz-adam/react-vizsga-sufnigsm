@@ -1,0 +1,25 @@
+.notfound {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.notfound h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.notfound a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #121212;
+}
+
+.notfound a:hover {
+    color: #35c9ee;
+}

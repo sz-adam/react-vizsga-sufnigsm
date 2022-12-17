@@ -1,0 +1,25 @@
+.homeContainer {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hello {
+    height: auto;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
