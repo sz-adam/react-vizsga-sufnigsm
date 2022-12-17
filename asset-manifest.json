@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-vizsga-sufnigsm/static/css/main.de8095c9.css",
+    "main.js": "/react-vizsga-sufnigsm/static/js/main.b9fb7581.js",
+    "static/media/phone.jpg": "/react-vizsga-sufnigsm/static/media/phone.6cc1f58f8f4ba343d1cf.jpg",
+    "index.html": "/react-vizsga-sufnigsm/index.html",
+    "main.de8095c9.css.map": "/react-vizsga-sufnigsm/static/css/main.de8095c9.css.map",
+    "main.b9fb7581.js.map": "/react-vizsga-sufnigsm/static/js/main.b9fb7581.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de8095c9.css",
+    "static/js/main.b9fb7581.js"
+  ]
+}
